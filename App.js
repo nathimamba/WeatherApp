@@ -11,7 +11,7 @@ const App = () => {
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
-  const [location, setLocation] = useState('Pretoria');  
+  const [location, setLocation] = useState('');  
   const [temperature, setTemperature] = useState(0);
   const [weather, setWeather] = useState('');
 
